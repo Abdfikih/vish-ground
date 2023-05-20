@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  @apply bg-white text-gray-900 text-base;
+}
+
+.button-link {
+  @apply mt-4 py-1 border-b-0 border-dotted text-sm font-semibold uppercase hover:border-solid focus:outline-none;
+}
