@@ -3,7 +3,7 @@ import YourImage from "./drone1.png";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col md:flex-1 md:grid md:grid-cols-2 gap-8 pt-4 md:pt-16 pb-16 px-4 md:px-8 text-white min-h-full items-center p-4 md:py-28 md:h-200 text-center md:text-left pt-2">
+    <div className="flex flex-col md:flex-1 md:grid md:grid-cols-2 gap-8 pt-4 md:pt-36 pb-16 px-4 md:px-8 text-white min-h-full items-center p-4 md:py-28 md:h-200 text-center md:text-left pt-2">
       <div className="flex flex-col justify-center items-center md:items-start md:text-left pt-2">
         <h1 className="text-8xl md:text-12xl font-bold tracking-wide text-transparent bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text">VISH</h1>
         <h1 className="text-4xl md:text-6xl font-bold tracking-wide text-white">GROUND</h1>
