@@ -12,5 +12,5 @@ body {
 }
 
 .button-link {
-  @apply mt-4 py-1 border-b-0 border-dotted text-sm font-semibold uppercase hover:border-solid focus:outline-none;
+  @apply mt-4 py-0 border-b-0 border-dotted text-sm font-semibold uppercase hover:border-solid focus:outline-none;
 }

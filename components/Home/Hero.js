@@ -26,7 +26,7 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="ml-auto mr-[-50px]">
+      <div className="ml-auto mr-[-45px]">
         <Image src={YourImage} alt="Your Image" width={500} height={400} objectFit="contain" />
       </div>
     </div>
