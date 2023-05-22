@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import { ArrowCircleRightIcon, MenuIcon, XIcon } from "@heroicons/react/solid";
 import Link from "next/link";
 import { useState } from "react";
+import vtol from "../public/drne.png";
 
 export default function Header() {
   const router = useRouter();
@@ -14,6 +15,7 @@ export default function Header() {
           <button onClick={() => setShowMenu((prev) => !prev)} className="focus:outline-none block mr-16 md:hidden z-50">
             {showMenu ? <XIcon className="w-8 h-8 text-white" /> : <MenuIcon className="w-8 h-8 text-white" />}
           </button>
+          <img src={vtol} alt="VTOL" className="w-10 h-10" />
           <h1 className="hidden md:block mr-auto ml-4 text-lg font-medium tracking-wider text-white">VishGround</h1>
           <nav>
             <div
@@ -43,7 +45,10 @@ export default function Header() {
               </div>
             </div>
           </nav>
-          <button onClick={() => (document.location.href = "https://abdfikih.site")} className="flex items-center ml-auto md:ml-16 px-4 h-10 rounded-lg bg-blue-500 text-white hover:bg-blue-700 focus:outline-none">
+          <button
+            onClick={() => (document.location.href = "https://abdfikih.site")}
+            className="flex items-center ml-auto md:ml-16 px-4 h-10 rounded-lg bg-transparent text-white border border-emerald-700 hover:bg-blue-700  hover:border-blue-700"
+          >
             <ArrowCircleRightIcon className="w-6 h-6" />
             <p className="ml-2 uppercase text-sm font-medium tracking-wide">GET STARTED</p>
           </button>
