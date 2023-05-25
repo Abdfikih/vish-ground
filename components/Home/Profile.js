@@ -7,8 +7,9 @@ export default function Profile() {
       <div className="h-full w-full">
         <h1 className="mb-4 text-2xl font-bold tracking-wide text-white">About Us</h1>
         <p className="text-white">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas deserunt consequatur porro dolorem. Quia dolore laboriosam doloribus numquam ex nam architecto temporibus porro animi nemo, vero aliquam quos atque laborum.
-          Voluptatum, nobis quasi! Nam numquam cumque rem voluptatum dicta perspiciatis ducimus temporibus odio optio, consequuntur fugiat autem vero sed id.y
+          Tim Vishwakharma atau VTOL (Vertical Take Off Landing) di dalam AUAV (Aerial Unmanned Autonomous Vehicle) Universitas Indonesia adalah sebuah sub-tim yang fokus pada pengembangan pesawat tak berawak dengan kemampuan lepas landas
+          dan mendarat secara vertikal. Tim ini bertujuan untuk mengembangkan teknologi pesawat tak berawak yang dapat melakukan perpindahan antara mode terbang horizontal dan vertikal, sehingga memungkinkan pesawat untuk beroperasi di
+          daerah yang memiliki keterbatasan ruang atau infrastruktur pendaratan yang terbatas.
         </p>
         <div className="flex justify-center md:justify-start gap-8 mt-8 mb-8 md:mb-0 text-gray-400">
           <a href="https://abdfikih.site" target="_blank" rel="noopener noreferrer">

@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { ArrowCircleRightIcon, MenuIcon, XIcon } from "@heroicons/react/solid";
 import Link from "next/link";
 import { useState } from "react";
-import vtol from "../public/drne.png";
+import vtol from "../public/vtol.png";
 
 export default function Header() {
   const router = useRouter();
@@ -15,7 +15,7 @@ export default function Header() {
           <button onClick={() => setShowMenu((prev) => !prev)} className="focus:outline-none block mr-16 md:hidden z-50">
             {showMenu ? <XIcon className="w-8 h-8 text-white" /> : <MenuIcon className="w-8 h-8 text-white" />}
           </button>
-          <img src={vtol} alt="VTOL" className="w-10 h-10" />
+          <img src={vtol} alt="VTOL" className="w-5 h-5" />
           <h1 className="hidden md:block mr-auto ml-4 text-lg font-medium tracking-wider text-white">VishGround</h1>
           <nav>
             <div
