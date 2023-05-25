@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 className="text-8xl md:text-12xl font-bold tracking-wide text-transparent bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text">VISH</h1>
         <h1 className="text-4xl md:text-6xl font-extralight tracking-wide text-white">GROUND</h1>
         <p className="mt-6 text-sm md:text-base font-light tracking-wide ">
-          VishGround merupakan sebuah sistem yang digunakan untuk mengontrol dan memantau pesawat tak berawak (Unmanned Aerial Vehicle atau UAV) atau pesawat terbang lainnya secara jarak jauh dari daratan. GCS berfungsi sebagai pusat
+          VishGround merupakan sebuah sistem yang digunakan untuk mengontrol dan memantau pesawat tak berawak (Unmanned Aerial Vehicle atau UAV) atau pesawat terbang lainnya secara jarak jauh dari daratan. VishGround berfungsi sebagai pusat
           komando yang memungkinkan operator manusia untuk mengontrol operasi pesawat secara real-time.
         </p>
         <div className="flex mt-4">
