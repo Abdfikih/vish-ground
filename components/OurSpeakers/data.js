@@ -5,7 +5,7 @@ import Matt from "../../images/speakers/placeholder.jpg";
 import Arya from "../../images/speakers/placeholder.jpg";
 import Jordhie from "../../images/speakers/placeholder.jpg";
 import Bernanda from "../../images/speakers/placeholder.jpg";
-import Ammar from "../../images/speakers/placeholder.jpg";
+import Ammar from "../../images/speakers/ammar.png";
 import Fikih from "../../images/speakers/fikih.jpg";
 import MP from "../../images/speakers/placeholder.jpg";
 import Nuzul from "../../images/speakers/placeholder.jpg";
