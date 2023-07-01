@@ -1,8 +1,7 @@
-module.exports = {
-    images: {
-        domains: [
-            'ohwuooiokmlxmhykfvsg.supabase.co',
-            'ohwuooiokmlxmhykfvsg.supabase.in',
-        ],
-    },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: false,
+  swcMinify: true,
 };
+
+module.exports = nextConfig;
