@@ -31,7 +31,7 @@ const Navbar = () => {
 
           <div className=" lg:flex">
             <Link href="/Error">
-              <a className="text-qiskit-white">
+              <a className="text-qiskit-black">
                 <Bluebutton title={"Join Us"} />
               </a>
             </Link>
