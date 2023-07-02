@@ -1,9 +1,9 @@
 import SectionTitle from "../shared/SectionTitle";
 import Image from "next/image";
-import globe from "../../images/shapes/globe.png";
-import atom from "../../images/shapes/atom.png";
-import maqam from "../../images/shapes/GDGAlgiers.png";
-import computer from "../../images/shapes/computer.png";
+import globe from "../../images/shapes/aircraft-purple.png";
+import atom from "../../images/shapes/paper-pink.png";
+import maqam from "../../images/shapes/drone-pink.png";
+import computer from "../../images/shapes/computer-purple.png";
 import CIMB from "../../images/logos/CIMB.png";
 
 const TheyTrustedUs = () => {
@@ -58,10 +58,6 @@ const TheyTrustedUs = () => {
 
         <div className="invisible lg:visible 2xl:visible absolute 2xl:-ml-6 left-1/2 2xl:top-10 lg:-top-1 lg:-ml-4 right-0 lg:w-16 lg:w-12 2xl:h-24 2xl:w-24">
           <Image src={computer} alt="" />
-        </div>
-
-        <div className="invisible lg:visible 2xl:visible absolute 2xl:left-1/2 2xl:top-12 lg:left-1/2 right-0 lg:w-8 lg:h-9 2xl:h-12 2xl:w-12">
-          <Image src={atom} alt="" />
         </div>
 
         <div className="invisible lg:visible 2xl:visible absolute left-90 -top-10 right-0 lg:w-14 lg:h-14 2xl:h-20 2xl:w-20">

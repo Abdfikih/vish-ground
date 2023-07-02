@@ -1,9 +1,9 @@
 import Image from "next/image";
 import SectionTitle from "../shared/SectionTitle";
 import KRTI from "../../images/sectionsAssets/KRTI.png";
-import GDGAlgiers from "../../images/shapes/GDGAlgiers.png";
+import GDGAlgiers from "../../images/shapes/aircraft-purple.png";
 import globe from "../../images/shapes/globe.png";
-import atom from "../../images/shapes/atom.png";
+import atom from "../../images/shapes/computer-purple.png";
 import computer from "../../images/shapes/computer.png";
 
 const AboutEvent = () => {

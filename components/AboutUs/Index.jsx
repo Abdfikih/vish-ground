@@ -4,7 +4,7 @@ import SectionTitle from "../shared/SectionTitle";
 import VTOL from "../../images/logos/vtol-big.png";
 import ParagSection from "../shared/ParagSection";
 import globe from "../../images/shapes/globe.png";
-import maqam from "../../images/shapes/MaqamWhite.png";
+import maqam from "../../images/shapes/aircraft-white.png";
 const AboutUs = () => {
   return (
     <section id="about-us">

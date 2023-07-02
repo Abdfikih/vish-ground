@@ -3,10 +3,9 @@ import YellowButton from "../shared/YellowButton";
 import Image from "next/image";
 import RightArrow from "../../images/sectionsAssets/rightArrow.png";
 import LeftArrow from "../../images/sectionsAssets/leftArrow.png";
-import Maqam from "../../images/shapes/GDGAlgiers.png";
+import Maqam from "../../images/shapes/aircraft-purple.png";
 import globe from "../../images/shapes/globe.png";
-import atom from "../../images/shapes/atom.png";
-import computer from "../../images/shapes/computer.png";
+import atom from "../../images/shapes/cloud-blue.png";
 import SectionTitle from "../../components/shared/SectionTitle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -31,10 +30,6 @@ const OurSpeakers = () => {
 
       <div className="absolute right-1/4 sm:bottom-0 sm:w-[10px] sm:h-[12px] md:w-[55px] md:h-[55px] lg:w-[82px] lg:h-[82px] lg:right-0 lg:bottom-0 z-25 ">
         <Image src={globe} alt="globebottom" layout="fill" />
-      </div>
-
-      <div className="hidden lg:block absolute  lg:w-[40px] bottom-[2rem] right-0 lg:bottom-0 lg:right-1/2">
-        <Image src={computer} alt="computer" />
       </div>
 
       <div className="absolute sm:bottom-0 sm:right-0 sm:w-[45px] md:right-1/2 lg:w-[40px] top-[2rem] right-0 lg:bottom-0 lg:right-1/2">

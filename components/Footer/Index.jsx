@@ -3,8 +3,8 @@ import Link from "next/link";
 import TRUI from "../../images/logos/TRUI.jpg";
 import VTOL_BIG from "../../images/logos/vtol-big.png";
 import VTOL_SMALL from "../../images/logos/vtol.png";
-import GlobeShape from "../../images/shapes/globe.png";
-import AlgeriaSymbol from "../../images/shapes/GDGAlgiers.png";
+import GlobeShape from "../../images/shapes/paper-pink.png";
+import AlgeriaSymbol from "../../images/shapes/computer-blue.png";
 import { socialsMedia, links } from "./data";
 
 const Footer = () => {
@@ -87,7 +87,7 @@ const Footer = () => {
       </div>
 
       <div className="absolute bottom-[4rem] -left-10 lg:bottom-0 lg:left-0">
-        <Image src={AlgeriaSymbol} height={74} width={107} />
+        <Image src={AlgeriaSymbol} height={40} width={40} />
       </div>
       <div className="absolute bottom-[4rem] right-0 lg:bottom-0 lg:right-1/4">
         <Image src={GlobeShape} height={42} width={42} />
