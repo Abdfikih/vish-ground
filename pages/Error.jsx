@@ -13,12 +13,12 @@ export default function Error() {
           <p className="text-xl font-semibold text-gray-700">Maaf, halaman yang Anda cari tidak ditemukan.</p>
         </div>
         <div className="flex justify-center">
-          <a
+          {/* <a
             href="/ "
             className="px-6 py-3 text-lg font-semibold text-center bg-qiskit-blue-lighter rounded-full text-white hover:bg-qiskit-blue-normal active:bg-blue-700 transition-colors duration-300 ease-in-out shadow-md hover:shadow-lg"
           >
             Kembali ke Beranda
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
